@@ -1,0 +1,26 @@
+.sidebar {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: solid 1px $gray-300;
+}
+
+.sidebar__avatar {
+  justify-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: $orange-300;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.router-link-active {
+  font-weight: bold;
+}

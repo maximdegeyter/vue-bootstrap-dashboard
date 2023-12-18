@@ -1,0 +1,22 @@
+// bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// components
+@import "./dashboard.scss";
+@import "./header.scss";
+@import "./table.scss";
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+export const tableHeaders = [
+  "Nummer",
+  "Datum",
+  "Naam",
+  "Status",
+  "Itemcode",
+  "Volgnummer",
+  "Omschrijving",
+  "GUID regel",
+  "Aantal eenheden",
+  "Aantal ontvangen",
+  "Valutakoers",
+  "Magazijn",
+  "Prijs per eenheid",
+  "Prijs",
+  "Prijs per eenheid (basisvaluta)",
+];
